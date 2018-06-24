@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="../CSS/style.css">
+  <!-- Playfair Font -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+
+  <link rel="icon" href="../Assets/logo.jpeg">
+  <title>Spoken English</title>
+</head>
+
+<body>
+
+
+  <div id="load"></div>
+  <div id="contents">
+
+
+    <!--MAIN NAVIGATION-->
+    <nav class="navbar navbar-default fixed-top navbar-expand-sm navbar-light" style="background: rgba(255, 255, 255, 1)">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand h5 font-weight-bold showcase-right" style="font-family: 'Playfair Display', serif;">
+          <img src="../Assets/logo.jpeg" alt="" style="width: 30px"> Dhage's English Academy
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse showcase-left" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-2 h6">
+              <a href="../index.html" class="nav-link">
+                <i class="fa fa-home"></i> Home
+              </a>
+            </li>
+            <li class="nav-item px-2 h6">
+              <a href="../about.html" class="nav-link">
+                <i class="fa fa-id-card"></i> About
+              </a>
+            </li>
+            <li class="nav-item dropdown px-2 h6">
+              <a href="#" id="navbarDropdown" class="nav-link dropdown-toggle activated" data-toggle="dropdown">
+                <i class="fa fa-cog"></i> Courses
+              </a>
+              <div class="dropdown-menu">
+                <a href="spoken.html" class="active dropdown-item">Spoken English</a>
+                <a href="personality.html" class="dropdown-item">Personality Development</a>
+                <a href="interview.html" class="dropdown-item">Interview Training</a>
+              </div>
+            </li>
+            <li class="nav-item px-2 h6">
+              <a href="../contact.html" class="nav-link">
+                <i class="fa fa-envelope"></i> Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center" style="margin-top: 80px">
+      <img src="../Assets/spokenTop.jpg" alt="Spoken English" class="breadcrumb-img">
+      <h1 class="breadcrumb-text">LEARN ENGLISH FROM THE MASTERS OF THE LANGUAGE</h1>
+    </div>
+
+    <!-- Course Levels Title -->
+    <div class="container text-center mt-5">
+      <h2 class="whyus">Course Levels</h2>
+    </div>
+
+    <!-- Course Levels -->
+    <div class="container">
+      <div class="card-group mt-5 text-center">
+        <div class="card">
+          <img class="card-img-top" src="../Assets/spoken1.jpg" alt="Card image cap">
+          <div class="card-body main-color text-white">
+            <h4 class="card-title font-weight-bold">BASIC LEVEL COURSE</h4>
+            <p class="card-text text-white mt-5">To equip our students with the basic knowledge of English language and prepare them for the competitive world.</p>
+            <button class="btn btn-dark alert-link" data-toggle="modal" data-target="#basicModal">Read More</button>
+            <!-- Modal -->
+            <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header main-color">
+                    <h5 class="modal-title text-dark font-weight-bold" id="basicModalLabel">Basic Level Course</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-dark text-left">
+                    To equip our students with the basic knowledge of English language and prepare them for the competitive world. This course
+                    is specially designed for Non-native speakers which includes basic grammar, listening and reading skills.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body main-color text-white">
+            <h4 class="card-title font-weight-bold">INTERMEDIATE LEVEL COURSE</h4>
+            <p class="card-text text-white mt-5">Enable our students to endow with the skill of speaking English to raise their career standards.</p>
+            <button class="btn btn-dark alert-link" data-toggle="modal" data-target="#intermediateModal">Read More</button>
+            <!-- Modal -->
+            <div class="modal fade" id="intermediateModal" tabindex="-1" role="dialog" aria-labelledby="intermediateModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header main-color">
+                    <h5 class="modal-title text-dark font-weight-bold" id="basicModalLabel">Intermediate Level Course</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-dark text-left">
+                    Enable our students to endow with the skill of speaking English to raise their career standards. This is an intense course
+                    specially designed for students at a transitional level to become a better writer and speaker.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="../Assets/spoken2.jpeg" alt="Card image cap">
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../Assets/spoken3.jpeg" alt="Card image cap">
+          <div class="card-body main-color text-white">
+            <h4 class="card-title font-weight-bold">ADVANCED LEVEL COURSE</h4>
+            <p class="card-text mt-5 text-white">English language is the USP to successful career. We look forward to enhance your personality and bridge the
+              gap between your dreams and your ideal profession.</p>
+            <button class="btn btn-dark alert-link" data-toggle="modal" data-target="#advancedModal">Read More</button>
+            <!-- Modal -->
+            <div class="modal fade" id="advancedModal" tabindex="-1" role="dialog" aria-labelledby="advancedModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header main-color">
+                    <h5 class="modal-title text-dark font-weight-bold" id="basicModalLabel">Advanced Level Course</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-dark text-left">
+                    English language is the USP to a successful career. We look forward to enhancing your personality and bridge the gap between
+                    your dreams and your ideal profession. This course is designed by our Expert trainers in order to help
+                    you to become an eloquent speaker and Master of the English language.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spoken Description -->
+    <div class="container mt-5">
+      <h2 class="font-weight-bold">Importance of fluency in Spoken English</h2>
+      <p style="font-size: 1.2rem; font-weight: 400">Language is a means of communication and it is important to express your ideas and views as naturally as possible.
+        Fluency in language brings a lot of motivation and confidence in the mind of the speaker. It is the ability to express
+        your ideas, convince, reach out and even impress with a speech which is clear. Fluency enhances reading the text
+        accurately, quickly and with expression. Nowadays, English plays a very important role in the overall personality
+        development of the individual. It is counted as an official language of many countries. People in every corner of
+        the world are enrolling in schools and online classes to bring fluency in their language.
+        <br>
+        <br> Moreover, fluency helps us in communicating with the native speakers easily and swiftly and therefore we can understand
+        the different perspectives of the world.The ability to speak fluent English will improve our resume and we can give
+        our interviews without any stress or obstacle. As more as we talk in English our language improves which also increases
+        our chances for a job and we can get the desired position in our office without any difficulty. Speaking English
+        fluently can open the world of opportunities and enable us to communicate with a lot more people and businesses.
+        We can freely participate in debates and meetings and fearlessly communicate our views.</p>
+    </div>
+
+    <!-- Thing you learn here -->
+    <div class="container text-center mt-5">
+      <h2 class="whyus">Things you learn here</h2>
+      <hr class="mb-4">
+      <div class="row mt-3">
+        <div class="col-md-2">
+          <i class="fa fa-book fa-5x text-danger"></i>
+          <p class="h6 pt-2">General English Speaking Course</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fa fa-user fa-5x text-warning"></i>
+          <p class="h6 pt-2">Courses offered as per the requirement of the candidates</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fa fa-file-o fa-5x text-primary"></i>
+          <p class="h6 pt-2">Public Speaking Courses</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fa fa-signal fa-5x text-success"></i>
+          <p class="h6 pt-2">Advanced English classes for corporate</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fa fa-calendar-o fa-5x text-secondary"></i>
+          <p class="h6 pt-2">English for job seekers</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fa fa-play-circle-o fa-5x" style="color: #CE7444"></i>
+          <p class="h6 pt-2">Practical Sessions</p>
+        </div>
+      </div>
+      <hr class="mt-4">
+    </div>
+
+    <div class="container mt-3">
+      <p style="font-size: 1.2rem; font-weight: 400">It is the language which connects the world and fluency in English is essential in all aspects of life. We provide
+        the Spoken English Classes in Latur and have designed a focused and extensive course material that provides complete
+        practical knowledge about the language and its usage. Thus we at Dhage&apos;s Academy are leaving no stones unturned
+        to make an English speaking and sophisticated society where people feel a great development and changes in their
+        personality.
+        <br>
+        <br> The courses are tailor-made to suit the requirement of different students. The specially designed courses for working
+        professionals and the job-seekers provide a positive environment to achieve the targets. These English courses/classes
+        and content are designed by experienced and professional teachers who have an edge in knowledge and teaching methodology
+        over the trainers of other institutes. We are offering a flexible study schedule that offers an advantage to the
+        working personnel, students, etc.</p>
+    </div>
+
+    <!--FOOTER SECTION-->
+    <section class="p-3 mt-5 text-center main-color">
+      <div class="container-fluid">
+        <div class="row  align-items-center">
+          <div class="col-md-8" style="font-weight: 400">
+            <h5 class="showcase-left" style="font-weight: 400">Copyright &copy; 2018</h5>
+            <h5 class="showcase-right" style="font-weight: 400">Dhage&apos;s English Academy</h5>
+            <p class="showcase-left" style="font-weight: 400">Developed and Maintained by
+              <a class="text-dark font-weight-bold" href="https://www.facebook.com/sachinmj7" target="_blank">
+                <i class="fa fa-user-circle"></i> Sachin Jadhav
+              </a>
+            </p>
+          </div>
+          <div class="col-md-3 showcase-bottom">
+            <a href="../contact.html" class="btn btn-block btn-dark">CONTACT US</a>
+          </div>
+          <div class="col-md-1 showcase-bottom">
+            <a href="#" class="btn btn-dark" id="top-button" style="margin-top: -110px">
+              <i class="fa fa-arrow-up fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Main JS -->
+  <script src="../JS/main.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+</body>
+
+</html>

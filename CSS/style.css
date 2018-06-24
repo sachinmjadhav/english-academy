@@ -1,0 +1,151 @@
+.title_logo {
+  font-family: "Playfair Display", serif;
+}
+
+.main-color {
+  background-color: #6cb6b6 !important;
+}
+.main-text {
+  color: #6cb6b6;
+}
+
+#card-id {
+  margin-top: -100px;
+}
+
+.images {
+  width: 80%;
+  height: 500px;
+  display: block;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-hover:hover {
+  background-color: #6cb6b6;
+  color: #fff;
+}
+
+.card-hover:hover .whiter {
+  color: #fff !important;
+}
+
+.card-hover:hover > i {
+  transition: all 0.5s ease-in;
+}
+
+.whyus {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.whyus::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 30%;
+  margin-left: -35%;
+  border: 1px solid #6cb6b6;
+}
+
+.whyus::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 30%;
+  margin-left: 5%;
+  border: 1px solid #6cb6b6;
+}
+
+#load {
+  display: block;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(http://gifimage.net/wp-content/uploads/2018/04/loading-gif-animation.gif)
+    center no-repeat #fff;
+}
+
+.courses {
+  overflow: hidden;
+}
+
+.courses:hover {
+  background-color: #3e8080;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.courses > img {
+  background-size: cover;
+  transition: all 0.5s;
+}
+
+.courses:hover > img,
+.courses:focus > img {
+  transform: scale(1.1);
+}
+
+.button:hover {
+  color: #fff;
+}
+.courses .button {
+  background-color: #3e8080;
+}
+.courses:hover .button {
+  background-color: orange;
+}
+
+.courses:hover h5 {
+  color: orange;
+  font-weight: bolder;
+}
+
+.activated {
+  color: #6cb6b6 !important;
+}
+
+#developer-card:hover {
+  background-color: #00796b;
+  color: #fff;
+  cursor: pointer;
+}
+
+#developer-card:hover .whiter {
+  color: #fff;
+}
+
+.breadcrumb-text {
+  color: #fff;
+  position: relative;
+  font-size: 33px;
+  font-weight: 600;
+  top: -170px;
+}
+
+.breadcrumb-img {
+  filter: brightness(0.45);
+  box-sizing: border-box;
+  width: 90%;
+}
+
+.personality-title {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  position: relative;
+  font-size: 50px;
+  font-weight: 600;
+  top: -220px;
+}
+
+#map {
+  width: 600px;
+  height: 450px;
+  background-color: grey;
+}
